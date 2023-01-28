@@ -6,7 +6,6 @@ import time
 import random
 import collections
 import svgwrite
-import cairosvg
 
 start_time = time.time()
 dic = collections.defaultdict(int)
@@ -89,7 +88,6 @@ def vectorize(img, n, p):
     print(str(time.time() - start_time) + " - Colored Triangles!")
 
     dwg.save()
-    cairosvg.svg2png(url="test.svg", write_to="output.png")
 
 
 vectorize("test5.jpeg", 1500, 0.5)
