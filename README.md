@@ -1,6 +1,6 @@
 # image_vectorizer
 
-A college project designed by Gevorg Margaryan and David Sawires for vectorizing a given image via use of custom written edge detection and Dealuanay triangulations.
+A college project designed by Gevorg Margaryan and David Sawires for vectorizing a given image via use of custom written edge detection and Delaunay triangulations.
 The parameters of the function are:
   Filename - String,
   Amount of random points to be added - Integer,
